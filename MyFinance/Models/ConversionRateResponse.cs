@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace MyFinance.Models
 {
-    public record struct ConversionRateResponse
+    public struct ConversionRateResponse
     {
         public Boolean Success { get; init; }
         public string Terms { get; init; }

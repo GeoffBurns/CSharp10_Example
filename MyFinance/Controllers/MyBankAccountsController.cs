@@ -1,9 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System.Collections.Generic;
+using Microsoft.AspNetCore.Mvc;
 using MyFinance.Models;
 
-namespace MyFinance.Controllers;
-
-[ApiController]
+namespace MyFinance.Controllers
+{
+    [ApiController]
 [Route("[controller]")]
 public class MyBankAccountsController : ControllerBase
 {
@@ -18,5 +19,6 @@ public class MyBankAccountsController : ControllerBase
            };
         return result;
     }
+}
 }
 

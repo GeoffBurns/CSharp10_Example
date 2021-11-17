@@ -1,10 +1,10 @@
-﻿namespace MyFinance.Models;
-
-public record struct BankAccountSummary
+﻿namespace MyFinance.Models
 {
-    public int AccountId { get; init; }
-    public string AccountName { get; init; } 
-    public decimal TotalTransactions { get; init; }
+    public struct BankAccountSummary
+    {
+        public int AccountId { get; init; }
+        public string AccountName { get; init; } 
+        public decimal TotalTransactions { get; init; }
+    }
 }
-
 

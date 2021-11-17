@@ -2,7 +2,7 @@
 
 namespace MyFinance.Models
 {
-    public record struct BankTransaction
+    public struct BankTransaction
     {
         public int TransactionId { get; init; }
         public DateTime TransactionDate { get; init; }
